@@ -8,9 +8,8 @@
             "email": "zhangtielong@che001.com"
         }
     ],
-    "license": "MIT",
+
     "require": {
-        "pimple/pimple": "^3.0"
 
     },
     "minimum-stability": "dev",
