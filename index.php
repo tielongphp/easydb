@@ -3,7 +3,7 @@
 
 require_once './vendor/autoload.php';
 
-use EasyDB\DB;
+use DbPdo\DB;
 
 DB::test();
 

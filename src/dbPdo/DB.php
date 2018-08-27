@@ -1,6 +1,6 @@
 <?php
 
-namespace EasyDB;
+namespace DbPdo;
 
 class DB
 {
