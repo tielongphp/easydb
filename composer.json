@@ -12,7 +12,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {"DbPdo\\": "src/tl-public/easydb"}
-    }
+    },
     "repositories":{
         "packagist": {
             "type":"composer",
