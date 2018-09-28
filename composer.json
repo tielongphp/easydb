@@ -13,10 +13,10 @@
     "autoload": {
         "psr-4": {"DbPdo\\": "src/tl-public/easydb"}
     }
-    "repositories": {
+    "repositories":{
         "packagist": {
-            "type": "composer",
-            "url": "https://packagist.org"
+            "type":"composer",
+            "url":"https://packagist.org"
            }
         }
 }
