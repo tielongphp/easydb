@@ -5,7 +5,7 @@
     "authors": [
         {
             "name": "zhangtielong",
-            "email": "zhangtielong@che001.com"
+            "email": "tielongphp@163.com"
         }
     ],
     "minimum-stability": "dev",
@@ -13,12 +13,12 @@
     "autoload": {
         "psr-4": {"DbPdo\\": "src/tl-public/easydb"}
     },
-    "repositories":{
-        "packagist": {
-            "type":"composer",
-            "url":"https://packagist.org"
-           }
-        }
+    "require": {
+        "catfan/medoo": "dev-master"
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"copy('.database.example', '.databasebase');\""
+        ]
+    }
 }
-
-
