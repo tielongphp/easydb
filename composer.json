@@ -1,21 +1,24 @@
 {
-    "name": "tl-public/easydb",
+    "name": "tielongphp/easydb",
     "description": "简单的pdo封装、查询构造器、快速db操作",
-     "keywords": ["db","pdo"],
+    "keywords": ["db","pdo"],
     "authors": [
         {
             "name": "zhangtielong",
-            "email": "zhangtielong@che001.com"
+            "email": "tielongphp@163.com"
         }
     ],
-    "license": "MIT",
-    "require": {
-
-    },
     "minimum-stability": "dev",
+    "license": "MIT",
     "autoload": {
         "psr-4": {"DbPdo\\": "src/tl-public/easydb"}
+    },
+    "require": {
+        "catfan/medoo": "dev-master"
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"copy('.database.example', '.databasebase');\""
+        ]
     }
 }
-
-

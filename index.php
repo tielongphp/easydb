@@ -3,7 +3,5 @@
 
 require_once './vendor/autoload.php';
 
-use DbPdo\DB;
-
-DB::test();
+var_dump();exit;
 
