@@ -3,5 +3,5 @@
 
 require_once './vendor/autoload.php';
 
-var_dump();exit;
+var_dump(1);exit;
 
