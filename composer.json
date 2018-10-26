@@ -8,8 +8,6 @@
             "email": "tielongphp@163.com"
         }
     ],
-    "minimum-stability": "dev",
-    "license": "MIT",
     "autoload": {
         "psr-4": {"DbPdo\\": "src/tl-public/easydb"}
     },
@@ -20,5 +18,8 @@
         "post-root-package-install": [
             "php -r \"copy('.database.example', '.databasebase');\""
         ]
-    }
+    },
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "prefer-stable": true
 }
