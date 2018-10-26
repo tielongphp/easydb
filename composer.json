@@ -14,7 +14,7 @@
         "psr-4": {"DbPdo\\": "src/tl-public/easydb"}
     },
     "require": {
-//        "catfan/medoo": "dev-master"
+        "catfan/medoo": "dev-master"
     },
     "scripts": {
         "post-root-package-install": [
