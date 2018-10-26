@@ -13,9 +13,9 @@
     "autoload": {
         "psr-4": {"DbPdo\\": "src/tl-public/easydb"}
     },
-//    "require": {
+    "require": {
 //        "catfan/medoo": "dev-master"
-//    },
+    },
     "scripts": {
         "post-root-package-install": [
             "php -r \"copy('.database.example', '.databasebase');\""
