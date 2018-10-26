@@ -1,7 +1,7 @@
 {
     "name": "tielongphp/easydb",
     "description": "简单的pdo封装、查询构造器、快速db操作",
-    "keywords": ["db","pdo"],
+    "keywords": ["db","pdo","medoo"],
     "authors": [
         {
             "name": "zhangtielong",
@@ -12,7 +12,8 @@
         "psr-4": {"DbPdo\\": "src/tl-public/easydb"}
     },
     "require": {
-        "catfan/medoo": "dev-master"
+        "catfan/medoo": "dev-master",
+        "php": ">=7.1.0"
     },
     "scripts": {
         "post-root-package-install": [
