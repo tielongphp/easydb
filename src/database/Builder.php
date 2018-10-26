@@ -1,6 +1,6 @@
 <?php
 
-namespace EasyDb\DataBase;
+namespace EasyDb;
 
 
 class Builder

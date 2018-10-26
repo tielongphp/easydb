@@ -9,7 +9,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"DbPdo\\": "src/tl-public/easydb"}
+        "psr-4": {"EasyDb\\": "src/database"}
     },
     "require": {
         "php": ">=7.1.0"

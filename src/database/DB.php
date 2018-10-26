@@ -1,9 +1,9 @@
 <?php
 
-namespace EasyDb\DataBase;
+namespace EasyDb;
 
 
-use Medoo\Medoo;
+use EasyDb\Medoo\Medoo;
 
 
 class DB
